@@ -30,15 +30,22 @@ body {
 .main {
   display: inline-block;
   vertical-align: top;
+  background-image: url(../images/frame.png);
+  width: 500px;
 }
 
 .homebuttonimage {
   display:inline;
 }
 
-.loginbutton {
-  color: #06365f;
+button {
+  background-color: #06365f;
 }
+
+
+/*.loginbutton {
+  color: #06365f;
+}*/
 
 .buttons {
   display: inline;
