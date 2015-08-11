@@ -13,11 +13,13 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding-top: 75px
 }
 
 .logoandlogin {
   display: inline-block;
   max-width:59%;
+  margin-left: 20px;
 
 }
 
@@ -32,30 +34,38 @@ body {
   vertical-align: top;
   background-image: url(../images/frame.png);
   width: 500px;
+  margin-left: 20px;
 }
 
-.homebuttonimage {
+/*.homebuttonimage {
   display:inline;
-}
+}*/
 
 button {
   background-color: #06365f;
+  display: inline-block;
 }
 
+p {
+  padding: 20px
+}
 
-/*.loginbutton {
+h2 {
+  padding-left: 20px;
   color: #06365f;
-}*/
-
-.buttons {
-  display: inline;
 }
+
 
 #content {
-  width: 40%;
+  width: 500px;
   display: inline-block;
 }
-/*p {
-  position: relative;
+
+li {
   display: inline-block;
-}*/
+}
+
+ul
+{
+  text-align: center;
+}
