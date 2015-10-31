@@ -79,9 +79,19 @@ ul
   display: inline-block;
   margin-left: 40px;
   bottom: 35px;
-  border: 1px solid darkblue;
+  border: 1px solid navy;
   height: 45px;
   width: 100px;
-  background: linear-gradient(lightblue 10%, #1c5380 80%)
+  background: linear-gradient(lightblue 10%, #1c5380 80%);
+  text-align: center
+}
+
+.loginword {
+  position: relative;
+  font-style: arial;
+  text-align: center;
+  left: 6px;
+  bottom: 5px;
+  font-size: 14;
 }
 
