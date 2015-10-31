@@ -18,7 +18,7 @@ body {
 
 .logoandlogin {
   display: inline-block;
-  max-width:59%;
+  width:500px;
   margin-left: 20px;
 
 }
@@ -44,6 +44,9 @@ body {
 button {
   background-color: #06365f;
   display: inline-block;
+  border-radius: 4px;
+  border: 2px solid black;
+  color: white;
 }
 
 p {
@@ -69,5 +72,16 @@ li {
 ul
 {
   text-align: center;
+}
+
+.loginbutton {
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  bottom: 35px;
+  border: 1px solid darkblue;
+  height: 45px;
+  width: 100px;
+  background: linear-gradient(lightblue 10%, #1c5380 80%)
 }
 
